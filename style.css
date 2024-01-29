@@ -1,0 +1,109 @@
+body {
+  background-color: #ffffff;
+  color: #333333;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px;
+  background-color: #f0f0f0;
+  border-radius: 50px;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.9);
+}
+
+h3 {
+  color: #000000;
+}
+
+a {
+  color: #0000ff;
+}
+
+p {
+  color: #333333;
+  text-indent: 2rem;
+}
+
+#rank {
+  width: 50rem;
+  height: auto;
+}
+#githubLink {
+  width: 8rem;
+  height: auto;
+}
+#codewar {
+  width: 50rem;
+  height: 18rem;
+}
+
+#docker {
+  width: 50rem;
+  height: auto;
+}
+
+#data {
+  width: 40rem;
+  height: auto;
+}
+
+#tableDetal {
+  width: 40rem;
+  height: auto;
+}
+
+#showtable {
+  width: 21rem;
+  height: auto;
+}
+
+#showdbs {
+  width: 10rem;
+  height: auto;
+}
+
+#show {
+  width: 10rem;
+  height: auto;
+}
+
+#taskList {
+  width: 18rem;
+  height: auto;
+}
+
+#addTask {
+  width: 10rem;
+  height: auto;
+}
+
+#editTask {
+  width: 20rem;
+  height: auto;
+}
+
+@media screen and (max-width: 480px) {
+  .container {
+    max-width: 90%;
+    padding: 10px;
+  }
+}
+
+@media screen and (min-width: 481px) and (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+    padding: 15px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .container {
+    max-width: 1000px;
+    padding: 20px;
+  }
+}
